@@ -3,12 +3,12 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bisectionmethod"
+name = "particleswarm"
 version = "0.0.0"
 authors = [
-  { name="Emma Lejeune", email="elejeune@bu.edu" },
+  { name="Tucker Lyle", email="tlyle@bu.edu" },
 ]
-description = "bisectionmethod workflow"
+description = "particleswarm workflow"
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.9"
@@ -26,5 +26,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Lejeune-Lab-Graduate-Course-Materials/bisection-method"
-"Bug Tracker" = "https://github.com/Lejeune-Lab-Graduate-Course-Materials/bisection-method/issues"
+"Homepage" = "https://github.com/tuckluck/Particle_Swarm_Algo"
+"Bug Tracker" = "https://github.com/tuckluck/Particle_Swarm_Algo/issues"

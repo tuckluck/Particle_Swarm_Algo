@@ -78,7 +78,7 @@ class PSO:
                 particle.update_velocity(self.global_best_position, self.w, self.c1, self.c2)
                 particle.update_position(self.bounds)
             iterate_list.append(iteration+1)
-            best_list.append(self.global_best_position)
+            best_list.append(self.global_best_score)
             
                 
 				

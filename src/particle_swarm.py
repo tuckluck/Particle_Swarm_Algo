@@ -89,7 +89,7 @@ class PSO:
                 particle.update_position(self.bounds)
             iterate_list.append(iteration+1)
             best_list.append(self.global_best_score)
-            print(position_matrix)
+            
             
                 
 				

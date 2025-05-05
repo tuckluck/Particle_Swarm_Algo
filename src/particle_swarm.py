@@ -54,14 +54,24 @@ class PSO:
     def optimize(self):
         iterate_list = []
         best_list = []
+        #position matrix will hold positions for every particle at each iteration. 
+        #The matrix will be a row for each particle and the first n columns will be diminsons, then next iteration next to it. 
+        position_matrix = np.zeros((self.num_particles, self.dim * self.max_iter))
+        
 
 
 		# Main optimization loop
         for iteration in range(self.max_iter):
+            count = 0
+            
             for particle in self.swarm:
-                # Evaluate current fitness
+                
                 fitness = self.func(particle.position)
                 
+                index_mat = self.dim * iteration
+                
+                position_matrix[count,index_mat:index_mat + self.dim] = particle.position
+                count += 1
 
                 # Update personal best
                 if fitness < particle.best_score:   #test to see if best position has been achieved for each particle
@@ -79,11 +89,11 @@ class PSO:
                 particle.update_position(self.bounds)
             iterate_list.append(iteration+1)
             best_list.append(self.global_best_score)
+            print(position_matrix)
             
                 
 				
             print(f"Iteration {iteration+1}/{self.max_iter} - Best Score: {self.global_best_score:.5f}")
 
-        return self.global_best_position, self.global_best_score, iterate_list, best_list
+        return self.global_best_position, self.global_best_score, iterate_list, best_list, position_matrix
 	
-

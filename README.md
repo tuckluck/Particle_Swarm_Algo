@@ -1,5 +1,8 @@
 # Particle_Swarm_Algo
 
+Welcome to the Particle Swarm Repo. In this repo I have written a basic particle swarm algorithm and explored a complex multi-dimensional problem. The tutorial will walk through the basics of how a particle swarm algorithm works and it will also discuss how to adjust the algorithm social, inertial, and cognitive variables which can be valuable for certain problems. Enjoy!
+
+
 To install this package, please begin by setting up a conda environment (mamba also works):
 ```bash
 conda create --name PSO-env python=3.12
@@ -28,7 +31,7 @@ pytest -v --cov=particleswarm --cov-report term-missing
 Code coverage should be 100%. Now you are prepared to write your own code based on this method and/or run the tutorial. 
 
 
-If you would like the open `PS_tutorial.ipynb` located in the `tutorials` folder as a Jupyter notebook in the browser, you might need to install Jupyter notebook in your conda environment as well:
+If you would like the open `ParticleSwarm_tutorial.ipynb` located in the `tutorials` folder as a Jupyter notebook in the browser, you might need to install Jupyter notebook in your conda environment as well:
 ```bash
 pip install jupyter
 ```
@@ -36,6 +39,6 @@ pip install jupyter
 cd tutorials/
 ```
 ```bash
-jupyter notebook PS_tutorial.ipynb
+jupyter notebook ParticleSwarm_tutorial.ipynb
 ```
 ---

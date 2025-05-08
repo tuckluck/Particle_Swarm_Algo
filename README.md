@@ -13,6 +13,8 @@
 Welcome to the Particle Swarm Repo. In this repo I have written a basic particle swarm algorithm and explored a complex multi-dimensional problem. The tutorial will walk through the basics of how a particle swarm algorithm works and it will also discuss how to adjust the algorithm social, inertial, and cognitive variables which can be valuable for certain problems. Enjoy!
 
 
+This project made use of several skills learned in ME 700. First, using github for opensource programing. Second, code documentation and coverage. Lastly, understanding and exploring optimization algorithms. 
+
 To install this package, please begin by setting up a conda environment (mamba also works):
 ```bash
 conda create --name PSO-env python=3.12

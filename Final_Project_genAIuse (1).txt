@@ -1,0 +1,1 @@
+In this assignment i used chatGPT to research how a particle swarm algorithm works and the important steps and variables. I then used chatGPT to write a basic outline for the code. Later I used chatgpt to figure out how to plot the updating charts for the particle swarm visualization. 

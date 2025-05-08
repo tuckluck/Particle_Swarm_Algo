@@ -5,7 +5,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/sandialabs/sibl#license)
 
 
-[![codecov](https://codecov.io/gh/tuckluck/Assignment2/graph/badge.svg?token=TKF4CLV1G5)](https://codecov.io/gh/tuckluck/Particle_Swarm_Algo)
+[![codecov](https://codecov.io/gh/tuckluck/Particle_Swarm_Algo/graph/badge.svg?token=TKF4CLV1G5)](https://codecov.io/gh/tuckluck/Particle_Swarm_Algo)
 [![tests](https://github.com/tuckluck/Assignment2/actions/workflows/testsDS.yml/badge.svg)](https://github.com/tuckluck/Particle_Swarm_Algo/actions)
 
 

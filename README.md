@@ -1,5 +1,15 @@
 # Particle_Swarm_Algo
 
+[![python](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
+![os](https://img.shields.io/badge/os-ubuntu%20|%20macos%20|%20windows-blue.svg)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/sandialabs/sibl#license)
+
+
+[![codecov](https://codecov.io/gh/tuckluck/Assignment2/graph/badge.svg?token=TKF4CLV1G5)](https://codecov.io/gh/tuckluck/Particle_Swarm_Algo)
+[![tests](https://github.com/tuckluck/Assignment2/actions/workflows/testsDS.yml/badge.svg)](https://github.com/tuckluck/Particle_Swarm_Algo/actions)
+
+
+
 Welcome to the Particle Swarm Repo. In this repo I have written a basic particle swarm algorithm and explored a complex multi-dimensional problem. The tutorial will walk through the basics of how a particle swarm algorithm works and it will also discuss how to adjust the algorithm social, inertial, and cognitive variables which can be valuable for certain problems. Enjoy!
 
 
